@@ -46,10 +46,16 @@ $(eval TARGET_BOOTANIMATION_NAME := $(shell \
   echo $(TARGET_BOOTANIMATION_NAME); ))
 endef
 $(foreach size,$(bootanimation_sizes), $(call check_and_set_bootanimation,$(size)))
-
 PRODUCT_COPY_FILES += \
-   vendor/zos/prebuilt/common/media/$(TARGET_BOOTANIMATION_NAME).zip:system/media/bootanimation.zip
+   vendor/zos/prebuilt/common/media/$(TARGET_BOOTANIMATION_NAME).zip:system/med$
 endif
+
+# Backup Tool
+PRODUCT_COPY_FILES += \
+    vendor/zos/prebuilt/common/bin/backuptool.sh:install/bin/backuptool.sh \
+    vendor/zos/prebuilt/common/bin/50-backupscript.sh:system/addon.d/50-backupscript.sh \
+    vendor/zos/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
+    vendor/zos/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions
 
 # init.d support
 PRODUCT_COPY_FILES += \
