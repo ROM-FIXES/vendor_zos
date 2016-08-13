@@ -141,7 +141,8 @@ PRODUCT_PACKAGES += \
     SnapdragonGallery \
     SnapdragonMusic \
     Camera \
-    OmniStyle
+    OmniStyle \
+    SnapBrowser
 
 # Include explicitly to work around GMS issues
 PRODUCT_PACKAGES += \
