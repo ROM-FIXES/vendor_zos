@@ -223,3 +223,12 @@ PRODUCT_COPY_FILES += \
 
 # Compile libhwui in performance mode
 HWUI_COMPILE_FOR_PERF := true
+
+ifneq ($(HOST_OS),linux)
+$(warning ****************************************************************)
+$(warning * SDCLANG is not supported on non-linux hosts. Disabling...)
+$(warning ****************************************************************)
+else
+# include definitions for SDCLANG
+include vendor/zos/sdclang/sdclang.mk
+endif
