@@ -116,6 +116,9 @@ PRODUCT_PACKAGES += \
     WallpaperPicker \
     LiveWallpapersPicker
 
+# Substratum 
+PRODUCT_PACKAGES += ThemeInterfacer 
+
 # Telephony packages
 PRODUCT_PACKAGES += \
     messaging \
