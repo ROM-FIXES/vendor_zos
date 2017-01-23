@@ -140,7 +140,8 @@ PRODUCT_PACKAGES += \
     MusicFX \
     SnapdragonGallery \
     SnapdragonMusic \
-    Camera
+    Camera \
+    OmniStyle
 
 # Include explicitly to work around GMS issues
 PRODUCT_PACKAGES += \
