@@ -135,12 +135,12 @@ PRODUCT_PACKAGES += \
     rcs_service_api \
     rcs_service_api.xml
 
-# Snapdragon packages
+# Custom packages
 PRODUCT_PACKAGES += \
     MusicFX \
-    SnapdragonCamera \
     SnapdragonGallery \
-    SnapdragonMusic
+    SnapdragonMusic \
+    Camera
 
 # Include explicitly to work around GMS issues
 PRODUCT_PACKAGES += \
