@@ -140,7 +140,7 @@ PRODUCT_PACKAGES += \
     MusicFX \
     SnapdragonGallery \
     SnapdragonMusic \
-    Camera \
+    SnapdragonCamera \
     OmniStyle \
     SnapBrowser
 
