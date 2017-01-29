@@ -54,7 +54,7 @@ endif
 PRODUCT_COPY_FILES += \
     vendor/zos/prebuilt/bin/backuptool.sh:install/bin/backuptool.sh \
     vendor/zos/prebuilt/bin/backuptool.functions:install/bin/backuptool.functions \
-    vendor/zos/prebuilt/system/addon.d/50-backuptool.sh:system/addon.d/50-backuptool.sh
+    vendor/zos/prebuilt/addon.d/50-backuptool.sh:system/addon.d/50-backuptool.sh
 
 # init.d support
 PRODUCT_COPY_FILES += \
