@@ -40,6 +40,7 @@ SAMSUNG
 XIAOMI
 ======
 Mi5 (gemini): StarkDroid
+Redmi Note 3 Pro (kenzo): Bitti
 
 ==
 YU
