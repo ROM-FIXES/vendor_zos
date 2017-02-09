@@ -14,7 +14,7 @@ Moto E (condor): StarkDroid/Vatsal Koradia
 Moto X 2014 (victara): Gabriel Freire
 Moto G4 Play (harpia): Subhrajyoti Sen
 Moto G3 (osprey): ishubhamsingh
-
+Moto G 2014 (titan) Kranoner
 =====
 NEXUS
 =====
@@ -40,6 +40,7 @@ SAMSUNG
 XIAOMI
 ======
 Mi5 (gemini): StarkDroid
+Redmi Note 3 Pro (kenzo): Bitti
 
 ==
 YU
