@@ -47,7 +47,7 @@ $(eval TARGET_BOOTANIMATION_NAME := $(shell \
 endef
 $(foreach size,$(bootanimation_sizes), $(call check_and_set_bootanimation,$(size)))
 PRODUCT_COPY_FILES += \
-   vendor/zos/prebuilt/common/media/$(TARGET_BOOTANIMATION_NAME).zip:system/med$
+   vendor/zos/prebuilt/common/media/$(TARGET_BOOTANIMATION_NAME).zip:system/media/bootanimation.zip
 endif
 
 # Backup Tool
@@ -144,7 +144,8 @@ PRODUCT_PACKAGES += \
     SnapdragonMusic \
     SnapdragonCamera \
     OmniStyle \
-    SnapBrowser
+    SnapBrowser \
+    ZephyrOTA
 
 # Include explicitly to work around GMS issues
 PRODUCT_PACKAGES += \
